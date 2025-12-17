@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28785723116",
+    "project_id": "kibucu-hila",
+    "storage_bucket": "kibucu-hila.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28785723116:android:e62fa1de29184471cfc7c9",
+        "android_client_info": {
+          "package_name": "com.example.my_app_name"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG7gFGA1Cp0xSnFjD599K3xMsDT0xwO04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

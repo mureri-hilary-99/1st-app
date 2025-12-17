@@ -1,5 +1,5 @@
-import 'dart:io';
-
+import 'dart:io' ;
+// flutter imports
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -729,7 +729,7 @@ class _PraiseAndWorshipPageState extends State<PraiseAndWorshipPage> {
               ),
               const SizedBox(height: 16),
               DropdownButtonFormField<String>(
-                value: _selectedVoice,
+                initialValue: _selectedVoice,
                 decoration: const InputDecoration(
                   labelText: 'Select Voice',
                   prefixIcon: Icon(Icons.record_voice_over),
@@ -1112,7 +1112,7 @@ class _LeadershipPageState extends State<LeadershipPage> {
               ),
               const SizedBox(height: 16),
               DropdownButtonFormField<String>(
-                value: _selectedDepartment,
+                initialValue: _selectedDepartment,
                 decoration: const InputDecoration(
                   labelText: 'Department',
                   prefixIcon: Icon(Icons.apartment),
@@ -1133,7 +1133,7 @@ class _LeadershipPageState extends State<LeadershipPage> {
               ),
               const SizedBox(height: 16),
               DropdownButtonFormField<String>(
-                value: _selectedRole,
+                initialValue: _selectedRole,
                 decoration: const InputDecoration(
                   labelText: 'Role',
                   prefixIcon: Icon(Icons.badge),
